@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section id="home" className="hero" aria-labelledby="hero-title">
       <div className="hero-photo">
-        <Image src="/images/hero-facility.webp" alt={t("hero.imageAlt")} fill sizes="(max-width: 768px) 100vw, 70vw" priority className="hero-photo-image" />
+        <Image src="/images/hero4.jpeg" alt={t("hero.imageAlt")} fill sizes="(max-width: 768px) 100vw, 70vw" priority className="hero-photo-image" />
       </div>
       <div className="hero-overlay" aria-hidden="true" />
       <div className="container hero-content">

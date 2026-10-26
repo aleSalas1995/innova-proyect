@@ -9,5 +9,5 @@ export const site = {
   whatsappBase: "https://wa.me/50683200287",
 };
 
-export const navItems = ["home", "about", "services", "projects", "quality", "contact"];
+export const navItems = ["home", "services", "projects", "contact"];
 export const serviceIcons = ["hardhat", "settings", "wind", "factory", "ruler"];

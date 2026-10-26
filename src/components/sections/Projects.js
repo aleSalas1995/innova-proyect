@@ -6,9 +6,9 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import { useLanguage } from "@/context/LanguageContext";
 
 const projects = [
-  { image: "/images/project-industrial.webp" },
-  { image: "/images/project-systems.webp" },
-  { image: "/images/project-specialized.webp" },
+  { image: "/images/indus.jpeg" },
+  { image: "/images/indus2.jpeg" },
+  { image: "/images/indus3.jpeg" },
 ];
 
 export default function Projects() {
@@ -28,14 +28,12 @@ export default function Projects() {
                 <div className="project-image-wrap">
                   <Image src={project.image} alt="" fill sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw" className="project-image" />
                   <div className="project-image-shade" aria-hidden="true" />
-                  <span className="project-image-note"><ImageIcon size={13} aria-hidden="true" />{t("projects.referenceNote")}</span>
                 </div>
                 <div className="project-details"><p className="project-type">{copy.type}</p><h3>{copy.title}</h3><p>{copy.description}</p></div>
               </article>
             );
           })}
         </div>
-        <p className="project-disclaimer">{t("projects.footnote")}</p>
       </div>
     </section>
   );

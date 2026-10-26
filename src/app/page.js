@@ -16,11 +16,11 @@ export default function HomePage() {
       <main id="main-content">
         <Hero />
         <ServiceHighlights />
-        <TrustStrip />
-        <About />
+        {/* <TrustStrip /> */}
+        {/* <About /> */}
         <Services />
         <Projects />
-        <Quality />
+        {/* <Quality /> */}
         <Contact />
       </main>
       <Footer />
